@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { TableComponent } from './components/table/table.component';
 import { MatTableModule, MatPaginatorModule } from '@angular/material';
 import { TablePaginationExampleComponent } from './components/table-pagination-example/table-pagination-example.component';
+import { ApiDataSourceComponent } from './components/api-data-source/api-data-source.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { TablePaginationExampleComponent } from './components/table-pagination-e
     AppComponent,
     // TableComponent,
     TablePaginationExampleComponent,
+    ApiDataSourceComponent,
   ],
   imports: [
     BrowserModule,
